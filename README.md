@@ -15,13 +15,20 @@ config file :in this file add your credentials.
 4.terraform apply
 
 Create s3 bucket and upload file by using terraform
-refer s3bucketfile and add your credentials.
-after that excute below commnads:
+refer provider.tf and add your credentials.
+after that execute below commnads:
 1.terraform init
 2.terraform validate
 3.terraform plan
 4.terraform apply
 
 
-
+Create vpc by using terraform
+refer vpcfile.tf and vpcfile2.tf
+vpcfile.tf : in this file 
+after that execute below commnads:
+1.terraform init
+2.terraform validate
+3.terraform plan
+4.terraform apply
 
