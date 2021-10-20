@@ -7,7 +7,7 @@ Install terraform on ubuntu 20.04 by using below commands :
 5.$ sudo apt install terraform
 6.$ terraform -v 
 
-refer config file  to add script after adding tf script run below commands by using terrafom for creating ec2 instance 
+refer config.tf and create_ec2.tf file  to add script after adding tf script run below commands by using terrafom for creating ec2 instance 
 config file :in this file add your credentials.
 1.terraform init
 2.terraform validate
@@ -25,7 +25,8 @@ after that execute below commnads:
 
 Create vpc by using terraform
 refer vpcfile.tf and vpcfile2.tf
-vpcfile.tf : in this file 
+vpcfile.tf : in this file add variable and credentials
+vpcfile2.tf : in this file add vpc,internet gateway,route table, public subnet and associate subnet with route table
 after that execute below commnads:
 1.terraform init
 2.terraform validate
